@@ -60,7 +60,7 @@ const Projects = () => {
                 </p>
                 <div 
                 style={{ 
-                  margin: 20, 
+                  margin: 5, 
                   display: 'flex', 
                   justifyContent: "end"                  
                   }}>

@@ -2,8 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Github from "../assets/github.svg";
 import Linkedin from "../assets/linkedin.svg";
-
-
+import Twitter from "../assets/twitter.svg"; // Add this import for the Twitter icon
 
 const Info = styled.div`
   width: 12rem;
@@ -46,15 +45,24 @@ const Contact = () => {
         <Center>
           <a 
             href="https://github.com/adielliot37" 
-            target="blank"
+            target="_blank" 
+            rel="noopener noreferrer"
           >
               <Social src={Github} alt="Aditya's Github" />
           </a>
           <a
             href="https://www.linkedin.com/in/aditya-chaplot-3a5b6b239/"
-            target="blank"
+            target="_blank" 
+            rel="noopener noreferrer"
           >
             <Social src={Linkedin} alt="Aditya's Linkedin" />
+          </a>
+          <a
+            href="https://x.com/adimrelliot"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Social src={Twitter} alt="Aditya's Twitter" />
           </a>
         </Center>
       </Info>
