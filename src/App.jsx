@@ -5,7 +5,9 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import Home from "./components/homepage/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Experience from "./pages/Experience"; // add import
+import Experience from "./pages/Experience"; 
+import InkPage from './pages/InkPage';
+import Skills from "./pages/Skills";
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <Route path="/projects" element={<Projects />}/>
         <Route path="/contact" element={<Contact />}/> 
         <Route path="/experience" element={<Experience />} /> 
+        <Route path="/ink" element={<InkPage />} />
+        <Route path="/skills" element={<Skills />} />
       </Route>
     )
   )

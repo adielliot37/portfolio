@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Github from "../assets/github.svg";
 import Linkedin from "../assets/linkedin.svg";
-import Twitter from "../assets/twitter.svg"; // Add this import for the Twitter icon
+import Twitter from "../assets/twitter.svg"; 
 
 const Info = styled.div`
   width: 12rem;

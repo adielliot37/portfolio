@@ -104,6 +104,19 @@ const Home = () => {
                 Contact
               </Link>
             </Li>
+
+            <Li>
+            <Link to="/skills" style={{ textDecoration: "none", color: "white" }}>
+              Skills
+           </Link>
+          </Li>
+
+            <Li>
+              <Link to="/ink" style={{ textDecoration: "none", color: "white" }}>
+                Cicada
+                3301
+              </Link>
+            </Li>
           </Ul>
 
           <Outlet />

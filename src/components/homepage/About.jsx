@@ -27,25 +27,17 @@ const About = () => {
       <ContainerSlideIn
       variants={fadeIn("left", "tween", 1.4, 1)}
       >
-          <p>
-            Self-taught Blockchain/web3 Developer
-            <br></br>
-            <br></br>
-            Primary Techs: Blockchain, Javascript, ReactJs, CSS, Solidity, Smart-contracts, c++, Arduino/RaspberryPi, node, HTML, Ethereum, Layer 2, Database.
-          </p>
-          <br></br>
-          <p>
-            I'm searching for a Blockchain/Solidity developer position where I can utilize my skills to optimize  Dapps & Smart-contracts with cool and stable user experience.
-            <br></br>
-            <br></br>
-            My motivators are curiosity, delight, and the desire to achieve something remarkable. 
-            <br></br>
-            <br></br>
-            My goal is to create revolutionized web3 world.
-            <br></br>
-            <br></br>
-            Let's work together to make a lasting impact.
-          </p>
+        <p>
+  Been messing with electronics and writing weird C++ code on Arduino since I was a kid — before I even knew what “real programming” was.
+  <br /><br />
+  Discovered trading in high school, blew up a few accounts, learned fast. Then came across the Bitcoin whitepaper and everything clicked — peer-to-peer systems, real decentralization, cryptographic truth. That idea hasn’t left my head since.
+  <br /><br />
+  I've been building in Web3 ever since — from DeFi bots that auto-rotate portfolios across CEXs to smart contracts that handle edge-case logic most people don’t even think about.
+  <br /><br />
+  I don’t just want to build apps. I want to build things that live on-chain, evolve with time, and make people realize, "oh wow, this wasn’t possible before."
+  <br /><br />
+  Let’s make something wild.
+</p>
         </ContainerSlideIn>
     </AboutDiv>
   )
