@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Experience from "./pages/Experience"; 
 import InkPage from './pages/InkPage';
 import Skills from "./pages/Skills";
+import Writings from "./pages/Writings";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/experience" element={<Experience />} /> 
         <Route path="/ink" element={<InkPage />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/writings" element={<Writings />} />
       </Route>
     )
   )
