@@ -9,6 +9,7 @@ import Experience from "./pages/Experience";
 import InkPage from './pages/InkPage';
 import Skills from "./pages/Skills";
 import Writings from "./pages/Writings";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
 
@@ -37,8 +38,8 @@ function App() {
   return (
     <>
       {loading ?  <Splash />  :  (<RouterProvider router={router}/>)}
+      <Analytics />
     </>
-    
   );
 }
 
