@@ -1,5 +1,11 @@
 export const projects = [
-  
+
+  {
+    name: "Darkpool",
+    projects: "A decentralized relay that encrypts DeFi transactions and submits them privately to block builders, shielding users from MEV sandwich attacks. Built on Base with TEE encryption (Lit Protocol) and ERC-8004 agent identity, light enough to run on a Raspberry Pi.",
+    year: "3rd prize, 2025",
+    url: 'https://github.com/adielliot37/darkpool'
+  },
 
        {
     name: "Aptos Autopilot",

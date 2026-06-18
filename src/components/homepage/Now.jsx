@@ -72,8 +72,9 @@ const Now = () => {
           <Body>
             I <Mark>lead the blockchain division</Mark> building the BlessUP
             Network, a Web3 social ecosystem on Base. I own the token and
-            contract layer end to end, and I drove the adoption of AI-assisted
-            workflows across other departments to lift company-wide productivity.
+            contract layer end to end — from tokenomics through audit,
+            deployment, and governance — and I led{" "}
+            <Mark>company-wide adoption of AI-assisted development</Mark>.
           </Body>
           <Bullets>
             <li>
@@ -86,8 +87,14 @@ const Now = () => {
               governed by a multisig and 48-hour timelock.
             </li>
             <li>
-              Hardened the full contract set for external audit and authored the
-              protocol whitepaper.
+              Own the contract roadmap through audit prep, deployment, and
+              multisig governance; authored the protocol whitepaper and
+              reward-model amendments.
+            </li>
+            <li>
+              Led the AI-adoption initiative — authored an internal playbook and
+              onboarded other teams (frontend, mobile, backend, QA) onto
+              AI-assisted workflows.
             </li>
           </Bullets>
         </Role>

@@ -4,22 +4,28 @@ import { Section, Eyebrow, Meta } from "../components/ui";
 
 const roles = [
   {
-    title: "Web3 + Backend Developer",
-    org: "ZkAGI",
-    dates: "Mar 2024 — Present",
-    note: "DePIN on Solana — zk proofs, FHE, and on-chain program development.",
+    title: "Lead Blockchain & Backend Developer",
+    org: "Mercle",
+    dates: "Jul 2025 — Dec 2025",
+    note: "Built GPU-accelerated encryption and Merkle-proof systems and shipped production-grade Solana token and program contracts. Led their deployment, resolving external audit findings for secure release, and built hardware for facial verification.",
   },
   {
-    title: "Open Source Contributor",
-    org: "Protocol Labs · Filecoin",
-    dates: "Oct 2024 — Present",
-    note: "Contributing across 5+ projects in the Filecoin ecosystem.",
+    title: "Web3 + Backend Developer",
+    org: "ZkAGI",
+    dates: "Mar 2024 — Jul 2025",
+    note: "DePIN on Solana — zk proofs, FHE, and on-chain program development.",
   },
   {
     title: "Community Advocate",
     org: "Chainlink Labs",
     dates: "Dec 2024 — Present",
     note: "Contracts, bug fixes, and docs improvements on the Chainlink codebase.",
+  },
+  {
+    title: "Open Source Contributor",
+    org: "Protocol Labs · Filecoin",
+    dates: "Oct 2024 — Present",
+    note: "Contributing across 5+ projects in the Filecoin ecosystem.",
   },
   {
     title: "Smart Contract & Backend Intern",
