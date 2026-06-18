@@ -5,6 +5,7 @@ import Now from "./Now";
 import About from "./About";
 import Experience from "../../pages/Experience";
 import Projects from "../../pages/Projects";
+import Writing from "../../pages/Writing";
 import Skills from "../../pages/Skills";
 import Contact from "../../pages/Contact";
 
@@ -103,6 +104,7 @@ const Home = () => {
         <NavLinks>
           <a href="#now">Now</a>
           <a href="#work">Work</a>
+          <a href="#writing">Writing</a>
           <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
@@ -123,6 +125,7 @@ const Home = () => {
       <Now />
       <About />
       <Projects />
+      <Writing />
       <Experience />
       <Skills />
       <Contact />
