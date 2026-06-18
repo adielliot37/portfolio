@@ -98,38 +98,6 @@ const Now = () => {
             </li>
           </Bullets>
         </Role>
-
-        <Role>
-          <Head>
-            <Title>
-              Founding Engineer · de-facto CTO <span>· Yieldo</span>
-            </Title>
-            <Meta>Feb 2026 — Present</Meta>
-          </Head>
-          <Body>
-            As the <Mark>sole founding engineer</Mark>, I build Yieldo end to
-            end — contracts, backend, indexer, infrastructure, and every
-            frontend. Yieldo is yield-distribution infrastructure that unifies
-            20+ DeFi protocols into one API and lets wallets and creators earn
-            on the yield they route.
-          </Body>
-          <Bullets>
-            <li>
-              Multi-chain UUPS-upgradeable router with adapters for 10+ yield
-              protocols (Morpho, Aave, Yearn, Lido), deployed across 6+ chains
-              under Safe multisig.
-            </li>
-            <li>
-              Python / FastAPI backend, MongoDB, and an async indexer tracking
-              140+ vaults every 15 minutes, with cross-chain routing via LiFi.
-            </li>
-            <li>
-              An AI-curated scoring engine — capital, performance, risk, and
-              trust — with real-time anomaly detection, plus React apps for
-              wallets, creators, and curators.
-            </li>
-          </Bullets>
-        </Role>
       </List>
     </Section>
   );

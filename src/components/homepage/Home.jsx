@@ -114,8 +114,9 @@ const Home = () => {
         <Role>Blockchain engineer</Role>
         <Intro>
           I build systems that live on-chain — smart contracts, backends, and
-          the infrastructure around them. Currently leading blockchain at NaXum
-          and running the full technical stack at Yieldo.
+          the infrastructure around them. Currently leading the blockchain
+          division at NaXum, and building Yieldo, a yield-distribution platform,
+          on the side.
         </Intro>
       </Hero>
 

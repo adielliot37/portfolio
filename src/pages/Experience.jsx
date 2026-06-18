@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { Section, Eyebrow, Meta } from "../components/ui";
+import { Section, Eyebrow, Meta, TextLink } from "../components/ui";
 
 const roles = [
   {
     title: "Lead Blockchain & Backend Developer",
     org: "Mercle",
+    link: "https://mercle.ai/",
     dates: "Jul 2025 — Dec 2025",
     note: "Built GPU-accelerated encryption and Merkle-proof systems and shipped production-grade Solana token and program contracts. Led their deployment, resolving external audit findings for secure release, and built hardware for facial verification.",
   },
@@ -84,7 +85,21 @@ const Experience = () => {
           <Item key={r.org + r.title}>
             <Head>
               <Title>
-                {r.title} <span>· {r.org}</span>
+                {r.title}{" "}
+                <span>
+                  ·{" "}
+                  {r.link ? (
+                    <TextLink
+                      href={r.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {r.org}
+                    </TextLink>
+                  ) : (
+                    r.org
+                  )}
+                </span>
               </Title>
               <Meta>{r.dates}</Meta>
             </Head>

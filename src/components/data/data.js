@@ -1,9 +1,16 @@
 export const projects = [
 
   {
+    name: "Yieldo",
+    projects: "Yield-distribution infrastructure that unifies 20+ DeFi protocols into a single API and lets wallets and creators earn on the yield they route. Multi-chain UUPS contracts, a Python/FastAPI backend, a real-time scoring indexer across 140+ vaults, and React apps — built end to end.",
+    year: "2025",
+    web: 'https://yieldo.xyz/'
+  },
+
+  {
     name: "Darkpool",
     projects: "A decentralized relay that encrypts DeFi transactions and submits them privately to block builders, shielding users from MEV sandwich attacks. Built on Base with TEE encryption (Lit Protocol) and ERC-8004 agent identity, light enough to run on a Raspberry Pi.",
-    year: "3rd prize, 2025",
+    year: "3rd prize, April 2026",
     url: 'https://github.com/adielliot37/darkpool'
   },
 
