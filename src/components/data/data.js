@@ -85,20 +85,12 @@ export const projects = [
     web: 'https://gasdaq.vercel.app'
   },
 
- 
    {
     name: "ArithmoAI",
     projects: "ArithmoAI is a Telegram AI crypto bot for multi-exchange portfolio management, insights, quant stats, TA signals & auto futures strategies.",
     year: "Endgame Hackathon Austin,TX, 2025(won $3000 bounty)",
     url: 'https://github.com/adielliot37/ArithmoAI-Endgame',
     web: 'https://dorahacks.io/buidl/25965'
-  },
-  {
-    name: "PawPad",
-    projects: "PawPad lets users deploy custom or prebuilt autonomous strategies to auto-trade futures, pairs, and memecoins.",
-    year: "Colosseum Breakout Hackathon, 2025",
-    url: 'https://github.com/ZkAGI/PawPad',
-    web: 'https://drive.google.com/file/d/1siGU6soCejG2Q3gyNZIDFCjYH-mUB9sV/view'
   },
 
   {
